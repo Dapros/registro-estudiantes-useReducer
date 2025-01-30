@@ -41,5 +41,6 @@ A continuación, se listan las dependencias empleadas en este proyecto:
 
 ***✨ Gracias por leer! 😃***
 ---
+[ver sitio en Netlify] (https://registro-estudiantes-usereducer-sr.netlify.app/)
 
 **Por: Sergio Romero**
