@@ -5,7 +5,7 @@ Este es un proyecto de demostración de desarrollo con **React** y **TypeScript*
 
 ## 📖 Descripción
 
-Este protecto fue realizado en **un día y medio** con el propósito de practicar y reforzar el uso de **useReducer** y **ContextAPI** en React.
+Este proyecto fue realizado en **un día y medio** con el propósito de practicar y reforzar el uso de **useReducer** y **ContextAPI** en React.
 
 ## 🔹 Funcionalidad
 
