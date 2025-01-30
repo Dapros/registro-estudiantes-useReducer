@@ -18,7 +18,7 @@ La aplicación permite gestionar un **registro de estudiantes**, proporcionando 
 
 ### 🔹Estructura del estado
 
-* Se utiliza un **estadp global con useState en el Context**, representado por `estudiante` y `setEstudiante`, el cual almacena los valores ingresados por el usuario en los formularios y permite que cualquier componente pueda acceder y modificar estos datos fácilmente. 
+* Se utiliza un **estado global con useState en el Context**, representado por `estudiante` y `setEstudiante`, el cual almacena los valores ingresados por el usuario en los formularios y permite que cualquier componente pueda acceder y modificar estos datos fácilmente. 
 
 * Adicionalmente, el **estado global con useReducer** gestiona las funcionalidades principales de la aplicación, como la adición, modificación y eliminación de estudiantes en la lista.
 
