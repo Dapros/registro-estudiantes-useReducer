@@ -1,3 +1,4 @@
+import { useEffect } from "react"
 import EstudianteList from "./components/EstudianteList"
 import Modal from "./components/Modal"
 import { useEstudiante } from "./hooks/useEstudiante"
@@ -6,6 +7,11 @@ import { PlusIcon, XMarkIcon } from '@heroicons/react/24/outline'
 function App() {
 
   const {state, dispatch} = useEstudiante()
+
+  //Guardar en local Storage
+  useEffect(() => {
+    localStorage.setItem('estudiante', JSON.stringify(state.estudiante))
+  }, [state])
 
   return (
     <>

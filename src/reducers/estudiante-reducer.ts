@@ -27,10 +27,16 @@ const uniqueId = (draftEstudiante : DraftEstudiante) : Estudiante => {
   }
 }
 
+//guardar en LocalStorage
+const localStorageEstudiante = () : Estudiante[] => {
+  const localStorageEstudiante = localStorage.getItem('estudiante')
+  return localStorageEstudiante ? JSON.parse(localStorageEstudiante) : []
+}
+
 // =========
 
 export const initialState : EstudianteState = {
-  estudiante: [],
+  estudiante: localStorageEstudiante(),
   modal: false,
   id: ''
 }
